@@ -46,4 +46,10 @@ public class StreamDemo2 {
 
     }
 
+    public List<Integer> evenNumber(List<Integer> list1) {
+
+        list1 = list1.stream().filter(l -> l % 2 == 0).collect(Collectors.toList());
+        return list1;
+    }
+
 }

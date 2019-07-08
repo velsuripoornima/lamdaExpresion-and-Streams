@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="21931368-854b-419d-8a6f-cbb2a7eca1aa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/stackroute/lamdaandstram/StreamDemo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/stackroute/lamdaandstram/StreamDemo2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/test/com/stackroute/lamdaandstram/StreamDemo2Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/test/com/stackroute/lamdaandstram/StreamDemo2Test.java" afterDir="false" />
     </list>
@@ -18,11 +17,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/stackroute/lamdaandstram/StreamDemo2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="39" column="7" selection-start-line="39" selection-start-column="7" selection-end-line="39" selection-end-column="7" />
+            <state relative-caret-position="327">
+              <caret line="51" column="21" selection-start-line="51" selection-start-column="21" selection-end-line="51" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -30,11 +29,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/test/com/stackroute/lamdaandstram/StreamDemo2Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="119" column="20" selection-start-line="119" selection-start-column="20" selection-end-line="119" selection-end-column="20" />
+            <state relative-caret-position="310">
+              <caret line="136" column="61" selection-start-line="136" selection-start-column="61" selection-end-line="136" selection-end-column="61" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -202,8 +201,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.StreamDemo2Test.givenListSouldReturnListOfNameStartsWithSmessage">
-    <configuration name="StreamDemo2Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.StreamDemo2Test.givenIntegerShouldReturnEvenNumberListMessage">
+    <configuration name="StreamDemo2Test.givenIntegerShouldReturnEvenNumberListMessage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="lambdaAndStream" />
       <extension name="coverage">
         <pattern>
@@ -213,7 +212,8 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.stackroute.lamdaandstram" />
       <option name="MAIN_CLASS_NAME" value="com.stackroute.lamdaandstram.StreamDemo2Test" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="METHOD_NAME" value="givenIntegerShouldReturnEvenNumberListMessage" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -284,11 +284,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.StreamDemo2Test.givenIntegerShouldReturnEvenNumberListMessage" />
         <item itemvalue="JUnit.StreamDemo2Test.givenListSouldReturnListOfNameStartsWithSmessage" />
         <item itemvalue="JUnit.StreamDemo2Test.givenListShouldReturnListCountMessage" />
         <item itemvalue="JUnit.StreamDemo2Test.givenListShouldReturnListEmptyMessage" />
         <item itemvalue="JUnit.StreamDemo2Test.givenListShouldReturnListUppercaseMessage" />
-        <item itemvalue="JUnit.StreamDemo2Test" />
       </list>
     </recent_temporary>
   </component>
@@ -306,9 +306,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="StreamDemo2Test - 2019.07.08 at 09h 29m 57s.xml">
-      <configuration name="StreamDemo2Test" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="StreamDemo2Test - 2019.07.08 at 09h 31m 11s.xml">
       <configuration name="StreamDemo2Test" configurationId="JUnit" />
     </history-entry>
@@ -334,6 +331,9 @@
       <configuration name="StreamDemo2Test.givenListShouldReturnListCountMessage" configurationId="JUnit" />
     </history-entry>
     <history-entry file="StreamDemo2Test_givenListSouldReturnListOfNameStartsWithSmessage - 2019.07.08 at 09h 51m 39s.xml">
+      <configuration name="StreamDemo2Test.givenListSouldReturnListOfNameStartsWithSmessage" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StreamDemo2Test_givenListSouldReturnListOfNameStartsWithSmessage - 2019.07.08 at 09h 56m 19s.xml">
       <configuration name="StreamDemo2Test.givenListSouldReturnListOfNameStartsWithSmessage" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -440,20 +440,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/test/com/stackroute/lamdaandstram/StreamDemo2Test.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/stackroute/lamdaandstram/StreamDemo2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="119" column="20" selection-start-line="119" selection-start-column="20" selection-end-line="119" selection-end-column="20" />
+        <state relative-caret-position="327">
+          <caret line="51" column="21" selection-start-line="51" selection-start-column="21" selection-end-line="51" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/stackroute/lamdaandstram/StreamDemo2.java">
+    <entry file="file://$PROJECT_DIR$/src/main/test/com/stackroute/lamdaandstram/StreamDemo2Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="39" column="7" selection-start-line="39" selection-start-column="7" selection-end-line="39" selection-end-column="7" />
+        <state relative-caret-position="310">
+          <caret line="136" column="61" selection-start-line="136" selection-start-column="61" selection-end-line="136" selection-end-column="61" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

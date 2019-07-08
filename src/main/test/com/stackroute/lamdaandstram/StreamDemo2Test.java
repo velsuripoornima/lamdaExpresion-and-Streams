@@ -124,4 +124,18 @@ public class StreamDemo2Test {
 
         assertEquals(result3,streamDemo2.firstName(memberNames1));
     }
+
+    @Test
+    public void givenIntegerShouldReturnEvenNumberListMessage(){
+        List<Integer> list1=new ArrayList<>();
+        list1.add(2);
+        list1.add(3);
+        list1.add(8);
+
+        List<Integer> resultlist=new ArrayList<>();
+        resultlist.add(2);
+        resultlist.add(8);
+
+        assertEquals(resultlist,streamDemo2.evenNumber(list1));
+    }
 }
